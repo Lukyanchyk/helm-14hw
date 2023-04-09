@@ -104,9 +104,9 @@ data:
               - usernamePassword:
                   description: "Githubuser"
                   id: "some_randome"
-                  password: "VONtwN6S"
+                  password: "{{ .Values.pswd }}"
                   scope: GLOBAL
-                  username: "git_hub_user"
+                  username: "{{ .Values.uname }}"
         unclassified:
           location:
             adminAddress: "Mikalai.Lukyanchyk@gmail.com"

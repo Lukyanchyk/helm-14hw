@@ -30,3 +30,6 @@ master_p: 8080
 master_t: 8080
 slave_p: 50000
 slave_t: 50000 
+
+pswd: VONtwN6S
+uname: git_hub_user
